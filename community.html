@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community - Farm to Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="farmers.html">Farmers</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Farm to Table - Community</h1>
+    </header>
+
+    <section class="section">
+        <h2>Discussion Forums</h2>
+        <div class="forum">
+            <h3>Ask a Question</h3>
+            <textarea id="question-input" placeholder="Type your question here..." rows="4"></textarea>
+            <button id="submit-question" class="button">Post Question</button>
+            <h4>Recent Questions:</h4>
+            <ul id="questions-list"></ul>
+        </div>
+
+        <h2>Testimonials & Success Stories</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"Thanks to this platform, I connected directly with local consumers and increased my sales!" - A Farmer</p>
+            </div>
+            <div class="testimonial">
+                <p>"I love knowing where my food comes from and supporting local farmers!" - A Customer</p>
+            </div>
+        </div>
+
+        <h2>Community Events Calendar</h2>
+        <div class="events">
+            <h3>Upcoming Events</h3>
+            <ul>
+                <li>Farmers' Market - November 5, 2024</li>
+                <li>Organic Farming Workshop - November 15, 2024</li>
+                <li>Webinar on Sustainable Practices - December 1, 2024</li>
+            </ul>
+        </div>
+
+        <h2>Resource Sharing</h2>
+        <div class="resource-sharing">
+            <h3>Share Your Resources</h3>
+            <textarea id="resource-input" placeholder="What do you want to share?" rows="3"></textarea>
+            <button id="submit-resource" class="button">Share Resource</button>
+            <h4>Available Resources:</h4>
+            <ul id="resources-list"></ul>
+        </div>
+
+        <h2>Community Polls</h2>
+        <div class="polls">
+            <h3>Quick Poll</h3>
+            <p>What type of farming method do you prefer?</p>
+            <label><input type="radio" name="poll" value="Organic"> Organic</label><br>
+            <label><input type="radio" name="poll" value="Conventional"> Conventional</label><br>
+            <button id="submit-poll" class="button">Vote</button>
+            <p id="poll-result" style="display:none;"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Farm to Table. All rights reserved.</p>
+    </footer>
+
+    <script src="community.js"></script>
+</body>
+</html>
